@@ -17,12 +17,12 @@ public interface AccountInterface {
 	public boolean validatePin(int attemptedPin);
 
 	/**
-	 * @return {@link Account#accountBalance}.
+	 *
 	 */
 	public double getBalance();
 
 	/**
-	 * @return {@link Account#accountNumber}
+	 * @return
 	 */
 	public Long getAccountNumber();
 
